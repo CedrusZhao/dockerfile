@@ -7,3 +7,4 @@ RUN echo "deb http://mirrors.163.com/debian-security/ buster/updates main non-fr
 RUN  apt-get update && apt-get install -y build-essential
 RUN  apt-get install -y python3 python3-pip
 RUN apt-get install -y vim
+RUN apt-get install -y cmake
