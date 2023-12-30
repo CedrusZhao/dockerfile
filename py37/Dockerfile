@@ -8,3 +8,4 @@ RUN  apt-get update && apt-get install -y build-essential
 RUN  apt-get install -y python3 python3-pip
 RUN apt-get install -y vim
 RUN apt-get install -y cmake
+RUN python3 -m pip install --upgrade pip
